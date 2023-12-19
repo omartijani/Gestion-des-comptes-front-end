@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.app-container{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  min-height: 96vh;
+  overflow: auto;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.icon, .link_text{
+  font-size: 20px;
+}
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
